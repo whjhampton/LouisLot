@@ -1,0 +1,13 @@
+/**
+ * File:    buildings.cga
+ * Created: 13 Apr 2016 17:58:45 GMT
+ * Author:  whjha
+ */
+
+version "2015.2"
+
+attr llText = "maps/louislot21.tif"
+
+@StartRule
+Ground -->
+	set(material.colormap, llText)

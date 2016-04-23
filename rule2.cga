@@ -1,0 +1,15 @@
+/**
+ * File:    rule2.cga
+ * Created: 6 Apr 2016 19:09:36 GMT
+ * Author:  whjha
+ */
+
+version "2015.2"
+
+attr Shape_Height = 0
+
+@StartRule
+Lot-->
+	extrude(Shape_Height)
+	color(0.85,0.84,0.71)
+
